@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.port || 3005
+const port = process.env.PORT || 3005
 const queries = require('./queries.js')
 const bodyParser = require('body-parser')
 const cors = require('cors')
