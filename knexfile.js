@@ -4,14 +4,12 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      filename: 'postgresql://localhost/g95-damon'
-    }
+    connection: 'postgresql://localhost/g95-damon'
   },
 
   production: {
     client: 'pg',
-    connection: 'process.env.postgresql://localhost/g95-damon'
+    connection: process.env.DATABASE_URL
   }
 
 };
