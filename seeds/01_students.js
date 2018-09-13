@@ -38,14 +38,6 @@ exports.seed = function(knex, Promise) {
           pastime: "easy climbing"
         },
         {
-          firstName: "Maddie",
-          lastName: "Kreamer",
-          hometown: "Des Moines, IA",
-          prevOccupation: "Server/Bartender",
-          favoriteNum: 7,
-          pastime: "Backpacking"
-        },
-        {
           firstName: "Jed",
           lastName: "Prentup",
           hometown: "Boulder",
